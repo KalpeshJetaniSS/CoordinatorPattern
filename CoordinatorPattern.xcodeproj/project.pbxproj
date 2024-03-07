@@ -14,6 +14,9 @@
 		04714E092B997E3100F767AE /* CoordinatorPatternTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04714E082B997E3100F767AE /* CoordinatorPatternTests.swift */; };
 		04714E132B997E3100F767AE /* CoordinatorPatternUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04714E122B997E3100F767AE /* CoordinatorPatternUITests.swift */; };
 		04714E152B997E3100F767AE /* CoordinatorPatternUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04714E142B997E3100F767AE /* CoordinatorPatternUITestsLaunchTests.swift */; };
+		04714E222B9981DC00F767AE /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04714E212B9981DC00F767AE /* Coordinator.swift */; };
+		04714E242B99825400F767AE /* CoordinatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04714E232B99825400F767AE /* CoordinatorView.swift */; };
+		04714E262B9982F800F767AE /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04714E252B9982F800F767AE /* DetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +48,9 @@
 		04714E0E2B997E3100F767AE /* CoordinatorPatternUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CoordinatorPatternUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		04714E122B997E3100F767AE /* CoordinatorPatternUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoordinatorPatternUITests.swift; sourceTree = "<group>"; };
 		04714E142B997E3100F767AE /* CoordinatorPatternUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoordinatorPatternUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		04714E212B9981DC00F767AE /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
+		04714E232B99825400F767AE /* CoordinatorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoordinatorView.swift; sourceTree = "<group>"; };
+		04714E252B9982F800F767AE /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,7 +102,10 @@
 			isa = PBXGroup;
 			children = (
 				04714DF62B997E3000F767AE /* CoordinatorPatternApp.swift */,
+				04714E212B9981DC00F767AE /* Coordinator.swift */,
+				04714E232B99825400F767AE /* CoordinatorView.swift */,
 				04714DF82B997E3000F767AE /* ContentView.swift */,
+				04714E252B9982F800F767AE /* DetailView.swift */,
 				04714DFA2B997E3100F767AE /* Assets.xcassets */,
 				04714DFC2B997E3100F767AE /* CoordinatorPattern.entitlements */,
 				04714DFD2B997E3100F767AE /* Preview Content */,
@@ -261,6 +270,9 @@
 			files = (
 				04714DF92B997E3000F767AE /* ContentView.swift in Sources */,
 				04714DF72B997E3000F767AE /* CoordinatorPatternApp.swift in Sources */,
+				04714E222B9981DC00F767AE /* Coordinator.swift in Sources */,
+				04714E262B9982F800F767AE /* DetailView.swift in Sources */,
+				04714E242B99825400F767AE /* CoordinatorView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

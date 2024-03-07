@@ -8,8 +8,17 @@
 import SwiftUI
 
 struct CoordinatorView: View {
+    
+    @StateObject private var coordinator = Coordinator()
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        NavigationStack(path: $coordinator.path, root: {
+            coordinator.build(page: .content)
+                .navigationDestination(for: Page.self) { page in
+                    coordinator.build(page: page)
+                }
+        })
+        .environmentObject(coordinator)
     }
 }
 
